@@ -27,7 +27,9 @@ Application Overview
 
 * The application is hosted on cloud supported by Rstudio's shiny server (Shinyapps.io)
 
+
 Application Panels of BMI Calculator
+========================================================
 
 * SIDE PANEL: It provides Input parameters for weight, height and type of measurement.
 
