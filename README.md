@@ -55,6 +55,9 @@ How can we use the BMI Calculator App?
 
 Once the CALCULATE button is clicked, the BMI will be displayed on the Main Panel. The BMI Chart tab can be used for reference to see the status whether you are normal, overweight or underweight.
 
+User Interface of BMI Calculator App
+========================================================
+![](./BMI_calculator.png)
 
 server.R
 ========================================================
