@@ -36,15 +36,13 @@ https://github.com/kenyang88/DevelopingDataProducts-Week4Project
 
 * The application is hosted on cloud supported by Rstudio's shiny server (Shinyapps.io)
 
-## Application Panels of BMI Calculator
+## Application Panels and Widgets of BMI Calculator
 
-* SIDE PANEL: It provides Input parameters for weight, height and type of measurement.
+* SIDE PANEL: provide Input parameters for weight, height and type of measurement.
 
-* MAIN PANEL: It contains 2 tabs, one for displaying the calculated BMI and another one for the BMI Chart that users could refer to see if theri body weuight is appropriate with respect to their body height.
+* MAIN PANEL: contain two tabs displaying (1) calculated BMI & (2) BMI Chart - that user could refer to see if body weight is appropriate with respect to body height.
 
-## Application Widgets of BMI Calculator
-
-* widget of selectInput for measurement: A box with 2 choices to select from, namely “Weight (kg) vs Height (cm)” and “Weight (lb) vs Height (inches)”
+* widget of selectInput for measurement: A box with 2 choices to select either “kg vs cm” or “lb vs inches”
 
 * widget of numericInput for weight: A field to enter weight
 
@@ -61,3 +59,6 @@ https://github.com/kenyang88/DevelopingDataProducts-Week4Project
 3. Click the CALCULATE button.
 
 Once the CALCULATE button is clicked, the BMI will be displayed on the Main Panel. The BMI Chart tab can be used for reference to see the status whether you are normal, overweight or underweight.
+
+## User Interface of BMI Calculator App
+![](./BMI_calculator.png)
