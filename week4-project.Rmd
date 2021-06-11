@@ -1,0 +1,63 @@
+---
+title: "Developing Data Products Week 4 Project"
+author: "Ken Yang"
+date: "10 June, 2021"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+This document is part of the Week 4 assignment for the course of Developing Data Products jointly organized by Coursera and Johns Hopkins University. The project is to develop an App which is an online calculator for Body Mass Index (BMI) - a measure of body fat based on height & weight of adult men and women. It consists of two parts:
+
+1. Create a Shiny application and deploy it on Rstudio's servers - Shiny website 
+https://kenyang.shinyapps.io/bmi_calculator/
+
+2. Use Rstudio Presenter to prepare a reproducible pitch presentation about the application. The presentation is available in RPub
+https://rpubs.com/kenyang/780152
+
+All files are stored at Github Repository:
+https://github.com/kenyang88/DevelopingDataProducts-Week4Project
+
+## Application Overview
+
+* The application is written in Shiny which is a web application framework for R
+
+* The source code consists of two files: server.R and ui.R
+
+* server.R includes the the server logic of a Shiny web application
+
+* ui.R includes the the user-interface definition, which uses the sidebarLayout template
+
+* The coding for server.R and ui.R code are shared on github
+
+* The application is hosted on cloud supported by Rstudio's shiny server (Shinyapps.io)
+
+## Application Panels of BMI Calculator
+
+* SIDE PANEL: It provides Input parameters for weight, height and type of measurement.
+
+* MAIN PANEL: It contains 2 tabs, one for displaying the calculated BMI and another one for the BMI Chart that users could refer to see if theri body weuight is appropriate with respect to their body height.
+
+## Application Widgets of BMI Calculator
+
+* widget of selectInput for measurement: A box with 2 choices to select from, namely “Weight (kg) vs Height (cm)” and “Weight (lb) vs Height (inches)”
+
+* widget of numericInput for weight: A field to enter weight
+
+* widget of numericInput for height: A field to enter height
+
+* widget of actionButton for calculation: An Action Button to calculate
+
+## How can we use the BMI Calculator App?
+
+1. Select the measurement type.
+
+2. Enter your body weight and height.
+
+3. Click the CALCULATE button.
+
+Once the CALCULATE button is clicked, the BMI will be displayed on the Main Panel. The BMI Chart tab can be used for reference to see the status whether you are normal, overweight or underweight.
